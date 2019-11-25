@@ -11,7 +11,7 @@ A makefile and template for [c4ev3](https://github.com/c4ev3) projects.
 #### Configuration
 `CC=arm-linux-gnueabi-gcc`: you may have to change this to `CC=arm-none-linux-gnueabi-gcc`.<br>
 `LDFLIBS=-L[YOUR-PATH] -lev3api -I[YOUR-PATH] -pthread`:
-Point gcc to the [EV3-API](https://github.com/c4ev3/EV3-API) with both `-L` and `-I`.
+Point gcc to the [EV3-API](https://github.com/c4ev3/EV3-API) with both `-L` and `-I`.<br>
 `EV3DUDER`: Path to [ev3duder](https://github.com/c4ev3/ev3duder).<br>
 `OPTDUDER`: Options you want to pass to [ev3duder](https://github.com/c4ev3/ev3duder). The default is `--usb`.<br>
 `upload`: The folder on your EV3 you want to upload to. The default is `/media/card/myapps/`, 
