@@ -1,6 +1,6 @@
 CC=arm-linux-gnueabi-gcc
-CFLAGS=-Os -Wall -Wextra
-LDFLIBS=-L../lib/libev3api -lev3api -I../lib/libev3api -lpthread
+CFLAGS=-Os -Wall
+LDFLIBS=-L../lib/libev3api -lev3api -I../lib/libev3api -pthread
 
 EV3DUDER=../tools/ev3duder/ev3duder
 OPTDUDER=--usb
