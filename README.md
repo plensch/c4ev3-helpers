@@ -1,4 +1,4 @@
-# c4ev3-helpers
+# c4ev3-template
 A makefile and template for [c4ev3](https://github.com/c4ev3) projects.
 
 #### Usage
